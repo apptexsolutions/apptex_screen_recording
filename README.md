@@ -32,7 +32,7 @@ String path = FlutterScreenRecording.stopRecording;
 ## Setup
 
 
-# Android
+### Android
 
 ApptexScreenRecording do not request permissions necessary. You can use [Permission_handler](https://pub.dev/packages/permission_handler), a permissions plugin for Flutter.
 Require and add the following permissions in your manifest:
@@ -44,7 +44,7 @@ Require and add the following permissions in your manifest:
 ```
 
 
-# iOS
+### iOS
 
 You only need add the permission message on the Info.plist
 
